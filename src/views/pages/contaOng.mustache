@@ -40,49 +40,89 @@
                 <div class="texto">Cadastar Ong</div>
                 <form action="#">
                     <div class="data">
+                        <label>Nome da ONG</label>
+                        <input type="text" placeholder="Nome" required>
+                    </div>
+                    <div class="data2">
+                        <label>Envie sua logo (PNG e JPG)</label>
+                        <input type="file" accept="image/png,image/jpeg">
+                    </div>
+                    <div class="data">
+                        <label>Seu melhor Email</label>
                         <input type="text" name="email" id="msgemail" onblur="validacaoEmail(f1.email)" required placeholder="Email">
                     </div>
                     <div class="data">
+                        <label>Sua Senha</label>
                         <input type="password" placeholder="Senha" required>
                     </div>
                     <div class="data">
-                        <input id="id_lock" name="id_lock" required placeholder="Telefone com DDD" class="verifica_numerico" required="" type="text" maxlength="14" onKeyPress="MascaraGenerica(this, 'TELEFONE');">
+                        <label>Confirme sua Senha</label>
+                        <input type="password" placeholder="Confirmar senha" required>
                     </div>
                     <div class="data">
+                        <label>Telefone com DDD</label>
+                        <input id="id_lock" name="id_lock" required placeholder="Telefone" class="verifica_numerico" required="" type="text" maxlength="14" onKeyPress="MascaraGenerica(this, 'TELEFONE');">
+                    </div>
+                    <div class="data">
+                        <label>Seu CNPJ</label>
                         <input id="id_lock" name="id_lock" placeholder="CNPJ" class="verifica_numerico" type="text" maxlength="18" onKeyPress="MascaraGenerica(this, 'CNPJ');">
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Categoria" required>
+                        <label>Escolha sua Categoria</label>
+                        <select id="class">
+                            <option>...</option>
+                            <option value="animais">Animais</option>
+                            <option value="reabilitacao">Reabilitação</option>
+                            <option value="lgbt">LGBT</option>
+                        </select>
                     </div>
                     <div class="data">
-                        <input id="id_lock" name="cep" placeholder="CEP" class="verifica_numerico" type="text" maxlength="10" onKeyPress="MascaraGenerica(this, 'CEP');">
+                        <label>Seu Endereço</label>
+                        <input type="text" placeholder="Endereço" required>
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Rua" name="rua" required>
-                    </div>
-                    <div class="data">
+                        <label>Seu Numero</label>
                         <input type="text" placeholder="Numero" required>
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Complemento" required>
+                        <label>Insira um Complemento</label>
+                        <input type="text" placeholder="Complemento">
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Web Site">
+                        <label>Seu CEP</label>
+                        <input id="id_lock" name="cep" placeholder="CEP" class="verifica_numerico" type="text" maxlength="10" onKeyPress="MascaraGenerica(this, 'CEP');">
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Fecebook">
+                        <label>Seu Bairro</label>
+                        <input type="text" placeholder="Bairro" required>
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Twiter">
+                        <label>Sua Cidade</label>
+                        <input type="text" placeholder="Cidade" required>
                     </div>
                     <div class="data">
-                        <input type="text" placeholder="Instagram">
+                        <label>Escolha uma rede Social</label>
+                        <select id="redeSocial">
+                            <option>...</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="linkedln">Linkedln</option>
+                            <option value="instagram">Instagram</option>
+                        </select>
                     </div>
                     <div class="data">
+                        <label>Seu Site, se tiver</label>
+                        <input type="url" placeholder="Web Site">
+                    </div>
+                    <div class="data">
+                        <label>Link da sua rede Social</label>
+                        <input type="url" placeholder="Link">
+                    </div>
+                    <div class="data">
+                        <label>Fale sobre a sua ONG</label>
                         <textarea name="" id="" cols="10" rows="5" placeholder="Sobre Sua Ong" required></textarea>
                     </div>
                     <div class="btn">
-                        <a href="../"><button type="submit" id="enviar">Enviar</button></a>
+                        <button type="submit" id="enviar">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -91,10 +131,10 @@
             <script src="../js/cep.js"></script>
             <script src="validandoemail.js"></script>
         </div>
-        <div class="entrarContato">
+        <div class="outraPagina">
             <div class="title2">Não é ONG? Crie como Usuario:</div>
             <div class="btn2">
-                <a href="../contato"><button type="submit" id="contato">Sou Usuario</button></a>
+                <a href="../contaUsuario-Centralizado/CriarContaUsuario.html"><button type="submit" id="contato">Sou Voluntario</button></a>
             </div>
         </div>
         <!--Conteudo da pagina-->
