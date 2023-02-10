@@ -9,3 +9,6 @@ Projeto Techno Growing NodeJs
 
 ## Para rodar o projeto
 "npm run start"
+
+## Colaborador(a)
+<a href="https://github.com/ViNovaes"><p>ViNovaes</p></a>
