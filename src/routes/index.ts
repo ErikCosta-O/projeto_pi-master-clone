@@ -9,14 +9,6 @@ const router = Router()
 
 router.get('/',homeController.home)
 
-router.get('/login',userController.login)
-
-router.get('/login',ongController.login)
-
-router.get('/criarContaUsuario',userController.contaUsuario)
-
-router.get('/criarContaOng',ongController.contaOng)
-
 router.get('/perfil',homeController.perfil)
 
 router.get('/sobre',homeController.sobre)
@@ -26,6 +18,16 @@ router.get('/vagas',homeController.vagas)
 router.get('/loja',homeController.loja)
 
 router.get('/contato',homeController.contato)
+
+router.get('/vaga', homeController.vaga)
+
+router.get('/login',userController.login)
+
+router.get('/login',ongController.login)
+
+router.get('/criarContaUsuario',userController.contaUsuario)
+
+router.get('/criarContaOng',ongController.contaOng)
 
 router.get('/contaOng',ongController.contaOng)
 
