@@ -8,12 +8,14 @@ autorizadas podem modificar*/
     top: 25vh;
 }
 .container1{
+    color: #212529;
     width: 600px;
     margin-right: 10vh;
 }
 .container1 .titulo{
     margin-top: 6vh;
-    font-size: 2.5rem;font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 .container1 .desc{
     margin-bottom: 15vh;
