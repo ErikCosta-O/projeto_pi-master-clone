@@ -94,7 +94,7 @@
     justify-content: center;
     margin-left: 30vh;
     margin-right: 30vh;
-    height: 30pc;
+    height: max-content;
     border-radius: 0vh 2vh;
     border-left: #7ea3f1 solid 0.40vh;
     border-bottom: #7ea3f1 solid 0.60vh;
@@ -118,6 +118,7 @@
     height: min-content;
 }
 .descConteudoVaga p{
+    display: block;
     text-align: left;
     font-size: 1.2rem;
     color: #212529;
