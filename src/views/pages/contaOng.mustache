@@ -77,8 +77,8 @@
                         </select>
                     </div>
                     <div class="data">
-                        <label>Seu Endereço</label>
-                        <input type="text" placeholder="Endereço" required>
+                        <label>Seu CEP</label>
+                        <input id="id_lock" name="cep" placeholder="CEP" class="verifica_numerico" type="text" maxlength="10" onKeyPress="MascaraGenerica(this, 'CEP');">
                     </div>
                     <div class="data">
                         <label>Seu Numero</label>
@@ -89,16 +89,16 @@
                         <input type="text" placeholder="Complemento">
                     </div>
                     <div class="data">
-                        <label>Seu CEP</label>
-                        <input id="id_lock" name="cep" placeholder="CEP" class="verifica_numerico" type="text" maxlength="10" onKeyPress="MascaraGenerica(this, 'CEP');">
+                        <label>Seu Endereço</label>
+                        <input type="text" name="endereco" placeholder="Endereço" required>
                     </div>
                     <div class="data">
                         <label>Seu Bairro</label>
-                        <input type="text" placeholder="Bairro" required>
+                        <input type="text" name="bairro" placeholder="Bairro" required>
                     </div>
                     <div class="data">
                         <label>Sua Cidade</label>
-                        <input type="text" placeholder="Cidade" required>
+                        <input type="text" name="cidade" placeholder="Cidade" required>
                     </div>
                     <div class="data">
                         <label>Escolha uma rede Social</label>

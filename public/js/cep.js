@@ -11,7 +11,7 @@
     .then( json => {
 
             if( json.logradouro ) {
-                document.querySelector('input[name=rua]').value = json.logradouro;
+                document.querySelector('input[name=endereco]').value = json.logradouro;
                     document.querySelector('input[name=bairro]').value = json.bairro;
                     document.querySelector('input[name=cidade]').value = json.localidade;
                     document.querySelector('input[name=estado]').value = json.uf;
