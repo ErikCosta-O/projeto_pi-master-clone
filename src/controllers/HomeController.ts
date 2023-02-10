@@ -39,5 +39,5 @@ export const contato = (req:Request, res:Response) =>{
     res.render('pages/contato')
 }
 export const vaga =(req:Request, res:Response)=>{
-    res.render('pages/detailsVagas')
+    res.render('pages/vaga')
 }
