@@ -41,3 +41,6 @@ export const contato = (req:Request, res:Response) =>{
 export const vaga =(req:Request, res:Response)=>{
     res.render('pages/vaga')
 }
+export const error =(req:Request, res:Response)=>{
+    res.render('pages/404')
+}
