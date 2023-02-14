@@ -44,3 +44,6 @@ export const vaga =(req:Request, res:Response)=>{
 export const error =(req:Request, res:Response)=>{
     res.render('pages/404')
 }
+export const confirma =(req:Request, res:Response)=>{
+    res.render('pages/confirmacao')
+}
