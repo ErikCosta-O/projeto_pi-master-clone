@@ -21,6 +21,8 @@ router.get('/contato',homeController.contato)
 
 router.get('/vaga', homeController.vaga)
 
+router.get('/404',homeController.error)
+
 router.get('/login',userController.login)
 
 router.get('/login',ongController.login)
