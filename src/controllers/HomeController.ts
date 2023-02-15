@@ -22,19 +22,15 @@ export const home = async (req:Request, res:Response) => {
 export const perfil = (req:Request, res:Response) =>{
     res.render('pages/perfil')
 }
-
 export const sobre = (req:Request, res:Response) =>{
     res.render('pages/sobre')
 }
-
 export const vagas = (req:Request, res:Response) =>{
     res.render('pages/vagas')
 }
-
 export const loja = (req:Request, res:Response) =>{
     res.render('pages/loja')
 }
-
 export const contato = (req:Request, res:Response) =>{
     res.render('pages/contato')
 }
