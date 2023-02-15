@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   transition: all 0.4s;
-  scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   background-color: #f4f4f9;
@@ -51,7 +51,7 @@ nav a :hover{
 /*Footer*/
 .footer-distributed {
   position: absolute;
-  top: 200pc;
+  top: 160pc;
   background: #1f1f1f; /* fallback for old browsers */
   box-sizing: border-box;
   width: 100%;
