@@ -29,10 +29,6 @@ router.get('/login',ongController.login)
 
 router.get('/criarContaOng',ongController.contaOng)
 
-router.get('/contaOng',ongController.contaOng)
-
-router.get('/contaUsuario',userController.contaUsuario)
-
 router.get('/criarContaUsuario',userController.contaUsuario)
 
 router.get('/login',userController.login)
